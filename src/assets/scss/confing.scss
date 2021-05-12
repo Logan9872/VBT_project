@@ -1,0 +1,33 @@
+/*
+  样式规范表
+*/
+
+$min-width:1024px; //容器安全区域宽度
+
+// 常规字体大小设置
+$fontA: 24px; //页面头字体大小，导航标题
+$fontB: 23px; //导航栏用户id和项目名称
+$fontC: 26px; //训练参数标题2
+$fontD: 18px; //训练参数标题2
+$fontE: 16px; //用于页面头部字体大小
+$fontF: 13px; //用于模式选择字体
+
+
+//常规字重
+$font-weightA:600; //用于标题文字
+
+// 常规配色设置
+$colorA         : #667FAC !default; //雾蓝主题色，用于选中框
+$colorB         : #4a5d80 !default; //用于主题色点击时鼠标没有离开的颜色
+$colorC         : #686868 !default; //用于灰色填充和背景
+// $colorC      : #000000 !default; //用于灰色填充和背景
+$colorD         : #444546 !default; //用于左右导航栏内容部分的背景
+$colorE         : #3D3E40 !default; //用于左右导航栏标题的背景
+// $colorE      : #393839 !default; //用于左右导航栏标题的背景
+$colorF         : #444546 !default; //用于左右导航栏内容部分的背景
+$colorG         : #363839 !default; //用于数据展示部分背景
+$colorH         : #1D1F21 !default; //用于左右导航栏头像和图片的背景
+$colorI         : #ffffff !default; //用于标题文字颜色
+$colorJ         : #454647 !default; //用于训练参数设置背景
+$colorK         : #3A3B3C !default; //用于训练参数设置选择框
+$colorL         : #595A5B !default; //用于训练参数设置选择框的边界

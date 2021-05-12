@@ -1,28 +1,31 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <NavHeader />
+    <UserDetail />
+    <TrainingModel />
+    <RealTimeData />
+    <TrainingParameter />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import NavHeader from "./components/NavHeader";
+import UserDetail from "./components/UserDetail";
+import TrainingModel from "./components/TrainingModel";
+import RealTimeData from "./components/RealTimeData";
+import TrainingParameter from "./components/TrainingParameter";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    NavHeader,
+    UserDetail,
+    TrainingModel,
+    RealTimeData,
+    TrainingParameter,
+  },
+};
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
 </style>
